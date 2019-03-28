@@ -1,0 +1,52 @@
+.background {
+    background-image: url("../images/officebackground.jpg"); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #000000;
+    text-align: center;
+}
+
+h1 { 
+    text-align: center; 
+    color: rgb(202, 202, 69);
+    font-family: 'Bangers', cursive;
+    font-size: 45px;
+    margin-top: 7%;
+}
+
+.buttons { 
+	width: 30%;
+	height: 50%;
+ }
+ 
+ .button {
+     background-color: rgb(234, 235, 226)
+ }
+
+.timer, .question, .results, .gifs, .right, .wrong, .unanswered, .start-button, .restart-button { 
+	text-align: center; 
+    font-size: 30px;
+    font-family: 'Bangers', cursive;
+}
+.question {
+    text-align: center; 
+    color: rgb(234, 235, 226);
+    font-family: 'Bangers', cursive;
+}
+
+.timer {
+    color: rgb(175, 56, 56);
+}
+
+.winGif, .loseGif, .endGif {
+	height: 100%;
+	width: 50%;
+}
+
+.finalScore {
+	background-color: rgb(234, 235, 226);
+	margin: 0 auto;
+	width: 50%;
+}
